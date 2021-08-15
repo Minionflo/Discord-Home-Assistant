@@ -29,8 +29,8 @@ You must go into the folder with the files and then execute the following comman
 
 * Make a Container with the Image minionflo/discord:homeassistant
 * Set the Env variabels
-** DC_TOKEN
-** DC_OWNER
+  * DC_TOKEN
+  * DC_OWNER
 DC_STATUS
 DC_STATUSTYPE
 DC_PREFIX
