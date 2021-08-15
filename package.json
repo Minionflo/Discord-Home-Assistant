@@ -1,0 +1,16 @@
+{
+  "name": "dc-ha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js debug",
+    "start": "node index.js"
+  },
+  "author": "minionflo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "12.5.3",
+    "node-homeassistant": "^1.6.0"
+  }
+}
