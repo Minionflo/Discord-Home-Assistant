@@ -29,16 +29,17 @@ You must go into the folder with the files and then execute the following comman
 
 * Make a Container with the Image minionflo/discord:homeassistant
 * Set the Env variabels
-  * DC_TOKEN
-  * DC_OWNER
-DC_STATUS
-DC_STATUSTYPE
-DC_PREFIX
-DC_CHANNEL
-HA_TOKEN
-HA_HOST
-HA_PORT
-HA_PROTOCOL
+  * `DC_TOKEN = Your discord token`
+  * `DC_OWNER = Your discord id`
+  * `DC_STATUS = The status of the bot`
+  * `DC_STATUSTYPE = The type of the status`
+  * `DC_PREFIX = The prefix of the message to listen to`
+  * `DC_CHANNEL = The channel id of the channel to listen to`
+  * `HA_TOKEN = Your Home Assistant Long-Lived-Access Tokens`
+  * `HA_HOST = The url of your Home Assistant instance`
+  * `HA_PORT = The port of your Home Assistant instance`
+  * `HA_PROTOCOL = wss for Home Assistant with SSL, ws for Home Assistant without SSL`
+* Start the Container
 
 ### Alexa
 
