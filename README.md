@@ -29,16 +29,16 @@ You must go into the folder with the files and then execute the following comman
 
 * Make a Container with the Image minionflo/discord:homeassistant
 * Set the Env variabels
-1. DC_TOKEN
-2. DC_OWNER
-3. DC_STATUS
-4. DC_STATUSTYPE
-5. DC_PREFIX
-6. DC_CHANNEL
-7. HA_TOKEN
-8. HA_HOST
-9. HA_PORT
-10. HA_PROTOCOL
+** DC_TOKEN
+** DC_OWNER
+DC_STATUS
+DC_STATUSTYPE
+DC_PREFIX
+DC_CHANNEL
+HA_TOKEN
+HA_HOST
+HA_PORT
+HA_PROTOCOL
 
 ### Alexa
 
