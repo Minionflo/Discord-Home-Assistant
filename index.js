@@ -175,7 +175,7 @@ function cmd_switch_off(msg, args) {
                 "entity_id": "switch." + args
             }
         })
-        client.channels.cache.get(config_dc_channel).send("Turned " + args + " off")
+        client.channels.cache.get(config_dc_channel).send("Turned "+ args + " off")
     }
 }
 
