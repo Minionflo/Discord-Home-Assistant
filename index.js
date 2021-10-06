@@ -26,10 +26,15 @@ let ha = new Homeassistant({
 })
 
 client.on('ready', () => {
-    client.user.setActivity(config_dc_status, {type: config_dc_statustype})
+    activity()
+    setInterval(activity, 60000)
     console.log(`Online`)
     ha.connect()
 })
+
+function activity() {
+    client.user.setActivity(config_status, {type: config_statustype})
+}
 
 var con
 var conn
