@@ -33,7 +33,7 @@ client.on('ready', () => {
 })
 
 function activity() {
-    client.user.setActivity(config_status, {type: config_statustype})
+    client.user.setActivity(config_dc_status, {type: config_dc_statustype})
 }
 
 var con
